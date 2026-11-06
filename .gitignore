@@ -1,0 +1,45 @@
+.venv/
+.venv312/
+__pycache__/
+*.pyc
+friday_data/
+friday_evolution/backups/
+friday_evolution/proposals/
+build/
+dist/
+*.spec
+.env
+.env.*
+
+!Friday.spec
+
+# Old backups
+backups/
+friday_release_backup_*/
+friday2/
+friday3/
+*_backup*.py
+*_before_*.py
+friday_config_before_*.py
+
+# Voice and temporary test files
+friday_voices/
+test_*.py
+
+# Generated files
+*.log
+*.tmp
+
+# Evolution runtime data
+friday_evolution/backups/
+friday_evolution/proposals/
+friday_evolution/reports/
+
+# Python cache
+**/__pycache__/
+*.pyc
+
+# Personal data
+friday_data/
+
+Start Friday_backup.bat
